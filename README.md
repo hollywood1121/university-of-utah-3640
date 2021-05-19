@@ -10,4 +10,4 @@ This class is taught by Doğuhan Sündal who is my favorite professor. This is a
 ### Variables & Manipulation
 Variables are important to understand and how to name correctly because we have the capability to manipulate them. Here's a great example:
 
-`<addr>` this is code
+`<this is where code goes>` 
