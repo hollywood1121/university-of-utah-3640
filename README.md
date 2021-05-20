@@ -3,9 +3,11 @@ Based on the book The Practice of Statistics for Business and Economics 4th Edit
 
 This class is taught by Doğuhan Sündal who is my favorite professor. This is a study companion to help distill some main concepts that can help you better learn R, an incredible statistical analysis tool that does data manipulation. If you plan to use this resource to cheat I'd suggest you remind yourself of your University's policy on cheating and the consequences thereof. Then obviously don't.
 
+Because R is in the computer science computational arena, documentation and walkthroughs are everywhere. If this guide isn't good enough, google your problems and find the right one for you, guaranteed.
+
 ## Table of Contents
 - Variables & Manipulation
-- Functions & Explanations
+- Functions
 
 ### Variables & Manipulation
 Variables are important to understand and how to name correctly because we have the capability to manipulate them. The example below will show how to create a variable using the `<-` operator, and how to have it read a .csv file that the user chooses.
@@ -16,6 +18,9 @@ Variables are important to understand and how to name correctly because we have 
 
 When you run this in R by hitting control + enter the computer will allow the user to select the CSV file of your choice and assign the whole document to the variable "coupons". Be advised that the `read.csv()` function is built in to R, and there are SO MANY AMAZING FUNCTIONS LIKE IT! If you don't know what specific functions do, I implore you to google it.
 
+As mentioned before, `coupons` has the columns, rows, and values associated from the document you selected. <u>You must set a variable every time you import csv files to manipulate it!</u> This is a very important concept.
+
+##### Manipulation
 To manipulate specific columns found within the variable coupons, use the `$` symbol after the variable name to denote which column specifically you want to manipulate. For example, we can create an a column with just 0's for every row:
 
 `coupons$testcol <- 0`
@@ -31,7 +36,7 @@ To manipulate column values within `coupons` do the following:
 `coupons$RealPrice <- coupons$RegPrice - coupons$DiscPrice`
 
 This will minus the `coupons$RegPrice` and  `coupons$DiscPrice` values for every row and store the end result into `coupons$RealPrice`.
-
+##### Targeting Specific Values
 You can also specify specific values by targeting them as you would in excel. The first number in brackets would specify the rows or range of rows you want, while the second number specifies the column. **If you enter in only one value, it will return the whole column!** Examples:
 
 `coupons[3,3]` will return "Smokey McSween's"
@@ -39,5 +44,71 @@ You can also specify specific values by targeting them as you would in excel. Th
 `coupons[1:3,3]` will return "Domo's" "Mama Rita's" "Smokey McSween's"
 
 `coupons[7]` will return all values we assigned for `coupons$RealPrice`: 10, 8, 13, 9, 8, 5, 9
+
+### Functions
+Functions are what make R so flexible and quick to handle data anyway we like to. Functions are premade snippets of code (by R or using packages) that you use to help accomplish your goals. Whether its displaying a graph, manipulating data, or performing data heavy computations, they are all known as "functions". They are very specific to help you do what you need to do quickly.
+
+ In 3640 we go through a ton so here's a quick reference section to the ones we use often, and WHY we use them.
+
+##### Graphical functions
+- [this is a](#Barplot-Graph)
+- this is b
+- this is c
+
+
+
+a
+
+a
+
+a
+
+a
+
+a
+
+
+
+# Barplot-Graph
+
+
+a
+a
+a
+
+
+
+
+assigned
+as
+as
+
+d
+a
+
+
+
+s
+d
+
+
+a
+sd
+
+
+a
+d
+
+
+
+
+
+
+
+
+
+
+
+
 
 And that's really it!
