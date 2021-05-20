@@ -47,68 +47,41 @@ You can also specify specific values by targeting them as you would in excel. Th
 
 ### Functions
 Functions are what make R so flexible and quick to handle data anyway we like to. Functions are premade snippets of code (by R or using packages) that you use to help accomplish your goals. Whether its displaying a graph, manipulating data, or performing data heavy computations, they are all known as "functions". They are very specific to help you do what you need to do quickly.
+##### Parameters of a Function
+Keep in mind most functions take in something called "parameters" or some call it "arguments" (from here out known as Parameters). They both mean the same thing and are VERY important to understand. Parameters are what information gets passed to a function for the function to operate. A an example, let's take a look at our classic function `barplot()`. `barplot()` is a function that can take MANY parameters. Here are some examples:
+
+`barplot(coupons, main="Coupon Prices", names=coupons$Name)`
+
+`coupons` is the data that needs to be visualized that we used earlier.
+
+`main="Coupon Prices"` is the title of the graph.
+
+`names=coupons$Name` is the individual names of each business on the list.  
+
+Notice both `main` and `names` have an `=` and some sort of value associated with it to determine what is being assigned with that variable.
+ You can either assign variables beforehand like we did with `coupons` or you can assign values on the spot, either way works.
+
+ ##### What Parameters Can Be Sent to a Function?
+ Keep in mind that anyway you do it, **you need to know what parameters are available in the function**. I'd highly recommend googling everything you can about the function you're using. to understand it.
+
+##### * The most important tip about Parameters *
+**You must know what type of variable your Parameter needs to accept.** Parameters will mostly always expect a specific type of Parameter such as a string, column, or dataset (like the `coupons` we used previously). if you don't know what these are, I highly suggest googling them.
+
+
 
  In 3640 we go through a ton so here's a quick reference section to the ones we use often, and WHY we use them.
 
-##### Graphical functions
-- [this is a](#Barplot-Graph)
-- this is b
-- this is c
+##### Visual Functions
+- [Barplot graphs ](#Barplot-Graph)
+- [Pie graphs](#)
+- [Histograms](#)
+
+##### Mathematic / Computational functions
+- [Mean ](#Barplot-Graph)
+- [Standard Deviation (SD)](#)
+- [Median](#)
 
 
 
-a
-
-a
-
-a
-
-a
-
-a
-
-
-
-# Barplot-Graph
-
-
-a
-a
-a
-
-
-
-
-assigned
-as
-as
-
-d
-a
-
-
-
-s
-d
-
-
-a
-sd
-
-
-a
-d
-
-
-
-
-
-
-
-
-
-
-
-
-
-And that's really it!
+# Barplot Graphs
+Barplot graphs are a great way to get across data in a very easy to understand way. While there are definitely limitations to what Barplot graphs can display, we need to learn how to utilize the function.
