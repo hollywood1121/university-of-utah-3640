@@ -61,27 +61,67 @@ Keep in mind most functions take in something called "parameters" or some call i
 Notice both `main` and `names` have an `=` and some sort of value associated with it to determine what is being assigned with that variable.
  You can either assign variables beforehand like we did with `coupons` or you can assign values on the spot, either way works.
 
- ##### What Parameters Can Be Sent to a Function?
+##### What Parameters Can Be Sent to a Function?
  Keep in mind that anyway you do it, **you need to know what parameters are available in the function**. I'd highly recommend googling everything you can about the function you're using. to understand it.
 
 ##### * The most important tip about Parameters *
 **You must know what type of variable your Parameter needs to accept.** Parameters will mostly always expect a specific type of Parameter such as a string, column, or dataset (like the `coupons` we used previously). if you don't know what these are, I highly suggest googling them.
 
 
-
  In 3640 we go through a ton so here's a quick reference section to the ones we use often, and WHY we use them.
 
-##### Visual Functions
-- [Barplot graphs ](#Barplot-Graph)
-- [Pie graphs](#)
+##### Visual Graph and Chart Functions
+
+- [Barplot Graphs](#Barplot-Graph)
+- [Pie Graphs](#)
 - [Histograms](#)
+- [Line Graphs](#)
+- [Scatterplots](#Scatterplot-Graph)
+- [Boxplots](#)
+- [lines (smooth)](#)
+- [par (new=true)](#)
+- [cor()](#)
+- [lm()](#)
+- [abline()](#)
+- [tabs()](#)
+- [addmargins()](#)
 
 ##### Mathematic / Computational functions
-- [Mean ](#Barplot-Graph)
-- [Standard Deviation (SD)](#)
-- [Median](#)
+- [Mean, Median, Mode & Standard Deviation (SD)](#Barplot-Graph)
+- [Linear Regression](#)
+- [Multiple Regression](#)
+- [Logistic Regression](#)
+- [Normal Distribution](#)
+- [Binomial Distribution](#)
+- [Poisson Distribution](#)
+- [Analysis of Covariance](#)
+- [Time Series Analysis](#)
+- [Nonlinear Least Square](#)
+- [Decision Tree](#)
+- [Random Forest](#)
+- [Survival Analysis](#)
+- [Chi Square Tests](#)
 
 
-
-# Barplot Graphs
+# Barplot-Graph
 Barplot graphs are a great way to get across data in a very easy to understand way. While there are definitely limitations to what Barplot graphs can display, we need to learn how to utilize the function.
+
+### Barplot Use Cases
+
+Lorem ipsum dit samet
+
+### Parameters of Barplots
+
+`barplot( H, xlab, ylab, main, names.arg, col)`
+
+- `H` is a vector or matrix containing numeric values used in bar chart.
+- `xlab` is the label for x axis.
+- `ylab` is the label for y axis.
+- `names.arg` is a vector of names appearing under each bar.
+- `main` is the title of the bar chart.
+- `col` is used to give colors to the bars in the graph.
+
+# Scatterplot-Graph
+Scatterplots show many points plotted in the Cartesian plane. Each point represents the values of two variables. One variable is chosen in the horizontal axis and another in the vertical axis.
+
+`plot(x, y, main, xlab, ylab, xlim, ylim, axes)`
