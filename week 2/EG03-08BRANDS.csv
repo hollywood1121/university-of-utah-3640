@@ -1,0 +1,101 @@
+Rank,Brand,Value,Change,Revenue,Advertising,Industry
+1,Apple,104.3,20,156.5,1100,Technology
+2,Microsoft,56.7,4,77.8,2600,Technology
+3,Coca-Cola,54.9,9,23.5,3342,Beverages
+4,IBM,50.7,5,104.5,1339,Technology
+5,Google,47.3,26,43.5,772,Technology
+6,McDonald's,39.4,5,88.3,788,Restaurants
+7,General Electric,34.2,2,132.1,.,Diversified
+8,Intel,30.9,-4,53.3,2000,Technology
+9,Samsung,29.5,53,181.0,4398,Technology
+10,Louis Vuitton,28.4,16,9.4,4211,Luxury
+11,BMW,27.9,6,77.6,.,Automotive
+12,Cisco,27.0,3,48.6,218,Technology
+13,Oracle,26.9,4,37.2,85,Technology
+14,Toyota,25.6,17,186.6,3970,Automotive
+15,AT&T,24.2,0,126.4,2910,Telecom
+16,Mercedes-Benz,23.5,8,90.9,.,Automotive
+17,Disney,23.1,21,22.0,2500,Leisure
+18,Wal-Mart,21.7,7,299.5,2300,Retail
+19,Budweiser,21.1,14,9.9,.,Alcohol
+20,Honda,21.1,1,115.2,3048,Automotive
+21,SAP,19.6,28,20.3,.,Technology
+22,Verizon,19.3,0,115.8,2381,Telecom
+23,Gillette,18.3,9,8.0,9300,Consumer Packaged Goods
+24,NIKE,18.2,14,23.7,2745,Apparel
+25,Pepsi,18.1,13,13.3,2200,Beverages
+26,American Express,18.0,5,33.8,2890,Financial Services
+27,Nescafe,17.7,2,10.7,.,Beverages
+28,L'Oréal,16.9,16,10.6,8707,Consumer Packaged Goods
+29,Marlboro,16.6,9,23.6,483,Tobacco
+30,H&M,16.1,12,18.3,.,Retail
+31,Hewlett-Packard,15.3,-16,119.9,1000,Technology
+32,HSBC,15.2,0,104.9,.,Financial Services
+33,Amazon.Com,14.7,44,60.6,2000,Technology
+34,Visa,14.2,12,10.4,.,Financial Services
+35,Siemens,13.7,1,100.6,.,Dversified
+36,Facebook,13.7,4,5.1,67,Technology
+37,ESPN,12.9,12,10.4,2500,Media
+38,Gucci,12.1,1,4.7,.,Luxury
+39,Nestle,11.8,18,11.3,.,Consumer Packaged Goods
+40,Frito-Lay,11.6,6,11.1,2200,Consumer Packaged Goods
+41,IKEA,11.5,5,35.5,.,Retail
+42,Danone,11.1,13,13.3,.,Consumer Packaged Goods
+43,Audi,10.9,1,55.2,.,Automotive
+44,Ford,10.6,34,130.0,4000,Automotive
+45,Coach,10.5,1,5.1,103,Luxury
+46,Fox,10.2,20,11.7,2200,Media
+47,UPS,10.2,13,54.1,.,Transportation
+48,Home Depot,10.1,12,74.8,831,Retail
+49,Accenture,9.7,10,30.4,.,Business Services
+50,Thomson Reuters,9.6,-10,7.2,.,Media
+51,Pampers,9.6,12,10.4,9300,Consumer Packaged Goods
+52,Zara,9.4,11,13.5,.,Retail
+53,Hermès,9.3,20,4.5,234,Luxury
+54,J.P. Morgan,9.1,-30,43.1,.,Financial Services
+55,Kraft,9.1,-10,7.1,640,Consumer Packaged Goods
+56,Wells Fargo,9.0,-14,91.2,578,Financial Services
+57,Canon,8.7,-11,41.8,998,Technology
+58,Kellogg's,8.7,-6,7.1,1120,Consumer Packaged Goods
+59,Ebay,8.5,14,6.3,1100,Technology
+60,Caterpillar,8.5,21,65.9,.,Heavy Equipment
+61,Adidas,8.4,23,14.5,.,Apparel
+62,Volkswagen,8.1,16,145.7,.,Automotive
+63,Ninendo,8.0,-39,7.6,.,Technology
+64,Colgate,7.9,7,3.9,1792,Consumer Packaged Goods
+65,Bank of America,7.7,-9,83.3,1873,Financial Services
+66,Shell,7.6,5,467.2,.,Oil & Gas
+67,Mastercard,7.4,8,7.4,775,Financial Services
+68,Rolex,7.4,14,4.5,.,Luxury
+69,Red Bull,7.2,16,6.3,.,Beverages
+70,Prada,7.1,23,3.4,193,Luxury
+71,Philips,7.1,14,31.9,1144,Diversified
+72,Nokia,7.0,-55,38.8,.,Technology
+73,Lexus,7.0,1,18.7,3970,Automotive
+74,Chanel,7.0,13,4.4,.,Luxury
+75,Heineken,7.0,7,6.0,.,Alcohol
+76,Starbucks,6.9,9,13.0,.,Restaurants
+77,Allianz,6.9,5,130.8,.,Financial Services
+78,Nissan,6.9,17,108.5,2749,Automotive
+79,Goldman Sachs,6.8,-15,41.7,.,Financial Services
+80,Sony,6.6,-20,69.5,4260,Technology
+81,Hyundai,6.5,21,49.7,1947,Automotive
+82,Exxon Mobil,6.4,18,420.7,.,Oil & Gas
+83,John Deere,6.4,14,36.2,177,Heavy Equipment
+84,Dell,6.4,-23,56.9,833,Technology
+85,Boeing,6.4,12,81.7,.,Aerospace
+86,Ralph Lauren,6.4,28,6.4,217,Apparel
+87,Chase,6.3,-9,56.8,.,Financial Services
+88,Lancome,6.2,13,4.0,8707,Consumer Packaged Goods
+89,Santander,6.0,-2,57.3,855,Financial Services
+90,Ericsson,5.9,-35,34.6,.,Technology
+91,FedEx,5.8,10,44.3,424,Transportation
+92,Subway,5.7,17,18.1,.,Restaurants
+93,ING,5.7,8,118.7,722,Financial Services
+94,Credit Suisse,5.7,-9,42.0,.,Financial Services
+95,Porsche,5.7,16,17.8,.,Automotive
+96,Heinz,5.6,2,4.4,314,Consumer Packaged Goods
+97,AXA,5.6,10,149.3,.,Financial Services
+98,MTV,5.6,-7,3.1,1205,Media
+99,Burberry,5.5,13,3.0,.,Luxury
+100,Estee Lauder,5.4,15,4.4,2798,Consumer Packaged Goods

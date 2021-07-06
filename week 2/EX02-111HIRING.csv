@@ -1,0 +1,5 @@
+Age,Hired,Count
+YoungerThan40,Hired,82
+YoungerThan40,NotHired,1160
+40OrOlder,Hired,2
+40OrOlder,NotHired,168
